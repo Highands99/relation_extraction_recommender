@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+h5py = "*"
+flask = "*"
+filelock = "*"
+dkpro-cassis = "*"
+joblib = "*"
+gunicorn = "*"
+deprecation = "*"
+pandas = "*"
+requests = "*"
+scikit-learn = "*"
+tensorflow = "==2.15"
+tensorflow-hub = "*"
+tensorflow-text = "==2.15"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9.20"
