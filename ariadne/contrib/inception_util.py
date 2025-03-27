@@ -32,7 +32,7 @@ def create_relation_prediction(
         "Dependent": target,
         IS_PREDICTION: True,
         feature: label,
-        "identifier": ""
+        #"identifier": ""
     }
     prediction = AnnotationType(**fields)
 
